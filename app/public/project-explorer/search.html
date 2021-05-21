@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>project explorer</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+                <a class="navbar-brand" href="#">Project Explorer</a>
+                <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search projects">
+                        <button type="button" class="btn btn-outline-light text-light">Search</button>
+                </form>
+                <ul class="navbar-nav"></ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Submit</a>
+                    </li>
+                </ul>
+                <ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <li class="nav-item form-control mr-sm-2">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                    <li class="nav-item form-control mr-sm-2">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </form>
+                </ul>
+            </nav>
+    </header>
+    <main>
+    <section>
+    <h1>Project Gallery</h1>
+    <div class="bg-light p-3">
+        <div class="form-group form-row mx-auto w-75">
+            <div class="col-md-6">
+              <input type="text" class="form-control form-control-lg" placeholder="Search project name, authors, abstract, tags">
+            </div>
+            <div class="col">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text form-control form-control-lg">Search by</div>
+                    </div>
+                    <select name="searchType" class="form-control form-control-lg">
+                        <option value="Name">Project Name</option>
+                        <option value="Authors">Authors</option>
+                        <option value="Abstract">Abstract</option>
+                        <option value="Tags">Tags</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col">
+                <button type="button" class="btn btn-primary form-control form-control-lg">Submit</button>
+              </div> 
+
+        </div>
+
+    </div>
+
+    <p style="font-size: 15px;"><b>All Projects</b><span style="font-size: 12; color: gray;"> (0 results)</span></p><br>
+
+    <div class="row">
+        <div class="col-sm">
+            <div class="card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">Project title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Author 1, Author 2</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">#html</a>
+                  <a href="#" class="card-link">#css</a>
+                  <a href="#" class="card-link">#javascript</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card m-2">
+                <div class="card-body">
+                  <h5 class="card-title">Project title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Author 1, Author 2</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-link">#html</a>
+                  <a href="#" class="card-link">#css</a>
+                  <a href="#" class="card-link">#javascript</a>
+                </div>
+              </div>
+        </div>
+    </div>
+ 
+    </section>
+    </main>
+    <footer>
+        <p style="text-align:right;"><span style="color:gray">Project Explorer © 2020</span> Edconnect</p>
+    </footer>
+</div>
+</body>
+</html>

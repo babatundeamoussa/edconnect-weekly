@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>project explorer</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+                <a class="navbar-brand" href="#">Project Explorer</a>
+                <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search projects">
+                        <button type="button" class="btn btn-outline-light text-light">Search</button>
+                </form>
+                <ul class="navbar-nav"></ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Submit</a>
+                    </li>
+                </ul>
+                <ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <li class="nav-item form-control mr-sm-2">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                    <li class="nav-item form-control mr-sm-2">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </form>
+                </ul>
+            </nav>
+    </header>
+    <main>
+
+        <h1>Project 1</h1>
+        <div class="row">
+            <div class="col">
+              <p>Created by<br>
+              Ade Chris</p>
+            </div>
+            <div class="col">
+                <p>Date Created<br>
+                2020-08-30</p>
+            </div>
+            <div class="col">
+                <p>Last Updated<br>
+                    2020-08-30</p>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <button type="button" class="btn btn-primary">Edit Project</button>
+              </div>
+        </div>
+
+        <form>
+            <div class="form-row form-group">
+              <div class="col">
+                <p class="form-control">Project Abstract</p>
+              </div>
+
+              <div class="col">
+                <p class="form-control">Project Details</p>
+              </div>
+            </div>
+
+            <div class="form-row form-group">
+                <div class="col">
+                  <p class="form-control">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+  
+                <div class="col">
+                    <div class="card form-control">
+                        <div class="card-header">
+                          <b>Author(s)</b>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Ade Chris</li>
+                          <li class="list-group-item">#web</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+
+            <div class="form-row form-group">
+                <div class="col">
+                    <label class="form-label">Comments</label>
+                    <textarea class="form-control" placeholder="Leave a comment">
+
+                    </textarea>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                          Project files
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text">No file uploaded yet</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+
+        </form>
+    </main>
+    <footer>
+        <p style="text-align:right;"><span style="color:gray">Project Explorer © 2020</span> Edconnect</p>
+    </footer>
+</div>
+</body>
+</html>

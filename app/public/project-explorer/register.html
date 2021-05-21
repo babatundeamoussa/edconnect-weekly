@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>project explorer</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+                <a class="navbar-brand" href="#">Project Explorer</a>
+                <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search projects">
+                        <button type="button" class="btn btn-outline-light text-light">Search</button>
+                </form>
+                <ul class="navbar-nav"></ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Submit</a>
+                    </li>
+                </ul>
+                <ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <li class="nav-item form-control mr-sm-2">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                    <li class="nav-item form-control mr-sm-2">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </form>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <form>
+            <h1>SignUp</h1>
+            <div class="form-group form-row mx-auto w-75">
+              <div class="col">
+                <label class="form-label">First name</label>
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <label class="form-label">Last name</label>
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+
+            <div class="form-group form-row mx-auto w-75">
+                <div class="col">
+                  <label class="form-label">Email address</label>
+                  <input type="email" class="form-control" placeholder="Your Email address">
+                </div>
+                <div class="col">
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" placeholder="Your Password">
+                </div>
+              </div>
+
+              <div class="form-group form-row mx-auto w-75">
+                <div class="col">
+                  <label class="form-label">program</label>
+                  <select name="program" class="col-md-6" id="program">
+                    <option value="computer_science">Computer Science</option>
+                    <option value="computer_information_systems">Computer Information Systems</option>
+                    <option value="computer_technology">Computer Technology</option>
+                 </select>
+                </div>
+                <div class="col">
+                  <label class="form-label">Matriculation number</label>
+                  <input type="text" class="form-control" placeholder="e.g. 16/2020">
+                </div>
+                <div class="col">
+                    <label class="form-label">Graduation year</label>
+                    <select name="graduationYear" id="graduationYear">
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                    </select>
+                  </div>
+              </div><br>
+              <button type="button" class="btn btn-primary">Sign Up</button>
+          </form>
+    
+    </main>
+    <footer>
+        <p style="text-align:right;"><span style="color:gray">Project Explorer © 2020</span> Edconnect</p>
+    </footer>
+</div>
+</body>
+</html>
